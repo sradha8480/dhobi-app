@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<title>DhobiApp</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet"/>
+	<link href="css/style.css" rel="stylesheet"/>
+	<link href="css/animate.css" rel="stylesheet"/>
+	<link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container-fluid header">
+		<div class="col-lg-6 col-md-6 col-sm-4 col-xs-12">
+			<a href="#"><img src="images/logo.png" class="img-responsive"></a>
+		</div>
+		<div class="col-lg-4 col-md-3 col-sm-4 col-xs-12">
+			<h5><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp; B/34 BDA Duplex Colony
+			Baramund</h5>
+			<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bhubaneswar 751003</h5>
+		</div>
+		<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+			<h6><i class="fa fa-phone" aria-hidden="true"></i> 0674 -2354234</h6>
+			<h5>Mon-Sun 6:00AM to 11:00PM</h5>
+		</div>
+	</div>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="pricelist.html">Prices</a></li>
+					<li><a href="area.html">Areas</a></li> 
+					<li><a href="howitworks.html">How It Works</a></li>
+					<li><a href="term.html">Terms and Condition</a></li>
+					<li><a href="faq.html">FAQ</a></li>
+					<li><a href="index.html #Contact">Contact</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#" data-toggle="modal" data-target="#myModal">Sign Up | Login</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="modal fade" id="myModal" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<img src="images/logo.png" class="img-responsive">
+					</h4>
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-sm-12">
+							<button type="submit" id="login" class="btn btn-info pull-left">Login</button>
+							<button type="submit" id="signup" class="btn btn-info pull-right">Signup</button>
+						</div>
+					</div>
+					<form action="" method="get" class="loginform">
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="form-group">
+									<label>User_Name</label>
+									<input type="text" class="form-control" placeholder="Your User Name">
+								</div>
+								<div class="form-group">
+									<label>Password</label>
+									<input type="password" class="form-control" placeholder="********">
+								</div>
+								<div class="checkbox">
+									<label><input type="checkbox" name="remember"> Remember me</label>
+								</div>
+								<div class="form-group">
+									<a href="#">Forget Password ?</a>
+								</div>
+								<div class="form-group">
+									<button type="submit" class="btn btn-primary">Login</button>
+								</div>
+							</div>
+						</div>
+					</form>
+					<form action="" method="get" class="signupform">
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="form-group">
+									<label>First_Name</label>
+									<input type="text" class="form-control" placeholder="Your First Name">
+								</div>
+								<div class="form-group">
+									<label>Last_Name</label>
+									<input type="text" class="form-control" placeholder="Your Last Name">
+								</div>
+								<div class="form-group">
+									<label>Email</label>
+									<input type="text" class="form-control" placeholder="Your Email-Id">
+								</div>
+								<div class="form-group">
+									<label>Password</label>
+									<input type="password" class="form-control" placeholder="********">
+								</div>
+		<!-- 						<div class="form-group">
+									<label>Confirm_Password</label>
+									<input type="text" class="form-control" placeholder="********">
+								</div> -->
+								<div class="form-group">
+									<label>Contact No</label>
+									<input type="text" class="form-control" placeholder="Your Contact No">
+								</div>
+								<div class="form-group">
+									<button type="submit" class="btn btn-primary">Submit</button>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="accordiansection">
+		<div  class="container">
+			<h1 class="about text-center">Faqs</h1>
+			<center>
+				<div class="border"></div>
+			</center>
+			<h4 class="text-center">Find answers for your queries related to  A Dhobi</h4>
+			<div class="row">
+				<div class="panel panel-group" id="accordion">
+					<div class="panel panel-default Mypanel">
+						<div class="panel-heading" data-toggle="collapse" href="#collapse1" data-parent="#accordion">
+							<h4 class="panel-title">
+								<a>What services does  A Dhobi provides?</a>
+								<i class="fa fa-minus-circle pull-right" aria-hidden="true"></i>
+							</h4>
+						</div>
+						<div id="collapse1" class="panel-collapse collapse in">
+							<div class="panel-body">
+								<p>We at  A Dhobi provide comprehensive Laundry services such as Wash & press, Wash & fold, Steam Press and dry cleaning. </p>
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default Mypanel">
+						<div class="panel-heading" data-toggle="collapse" href="#collapse2" data-parent="#accordion">
+							<h4 class="panel-title">
+								<a>What are your service timings? </a>
+								<i class="fa fa-plus-circle pull-right" aria-hidden="true"></i>
+							</h4>
+						</div>
+						<div id="collapse2" class="panel-collapse collapse">
+							<div class="panel-body">
+								<p>We work on all days of the week and our logistics team is available from 6AM to 11PM. </p>
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default Mypanel">
+						<div class="panel-heading" data-toggle="collapse" href="#collapse3" data-parent="#accordion">
+							<h4 class="panel-title">
+								<a>How do I register myself?</a>
+								<i class="fa fa-plus-circle pull-right" aria-hidden="true"></i>
+							</h4>
+						</div>
+						<div id="collapse3" class="panel-collapse collapse">
+							<div class="panel-body">
+								<p>You can either sign up on your PC by clicking here or on our Android app available on Playstore. Once you signup all you have to do is update your mobile number and address. </p>
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default Mypanel">
+						<div class="panel-heading" data-toggle="collapse" href="#collapse4" data-parent="#accordion">
+							<h4 class="panel-title">
+								<a>What if my clothes are heavily stained?</a>
+								<i class="fa fa-plus-circle pull-right" aria-hidden="true"></i>
+							</h4>
+						</div>
+						<div id="collapse4" class="panel-collapse collapse">
+							<div class="panel-body">
+								<p>We try our best to remove the stains by adapting the best washing cycle, detergent, temperature suitable for the garment, however in case of tough stains, we would recommend you to use our stain removal or dry cleaning service. </p>
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default Mypanel">
+						<div class="panel-heading" data-toggle="collapse" href="#collapse5" data-parent="#accordion">
+							<h4 class="panel-title">
+								<a>Why are the rates less in comparison to the competitors?</a>
+								<i class="fa fa-plus-circle pull-right" aria-hidden="true"></i>
+							</h4>
+						</div>
+						<div id="collapse5" class="panel-collapse collapse">
+							<div class="panel-body">
+								<ul>
+									<li> 1. We have our own processing units and do not outsource you valuable garments to other vendors. This helps us to keep processing costs low.</li>
+									<li> 2. Our infrastructure and inhouse logistics also enable us to keep the costs low.</li>
+									<li> 3. We do not have physical presence in form of Laundromats or stores. This helps us in reducing our real estate cost and hence reduces the overall pricing for our customers.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default Mypanel">
+						<div class="panel-heading" data-toggle="collapse" href="#collapse6" data-parent="#accordion">
+							<h4 class="panel-title">
+								<a>What is the notice I need to provide to schedule a pick up?</a>
+								<i class="fa fa-plus-circle pull-right" aria-hidden="true"></i>
+							</h4>
+						</div>
+						<div id="collapse6" class="panel-collapse collapse">
+							<div class="panel-body">
+								<p>We try our best to remove the stains by adapting the best washing cycle, detergent, temperature suitable for the garment, however in case of tough stains, we would recommend you to use our stain removal or dry cleaning service. </p>
+							</div>
+						</div>
+					</div>
+						<div class="panel panel-default Mypanel">
+						<div class="panel-heading" data-toggle="collapse" href="#collapse7" data-parent="#accordion">
+							<h4 class="panel-title">
+								<a>How long you take to return the garments?</a>
+								<i class="fa fa-plus-circle pull-right" aria-hidden="true"></i>
+							</h4>
+						</div>
+						<div id="collapse7" class="panel-collapse collapse">
+							<div class="panel-body">
+								<p>We normally deliver within 48 hrs for normal service and 24 hrs for express service. However in case of dry cleaning and add on services like starch, hand wash etc we might take upto 72 hours. </p>
+							</div>
+						</div>
+					</div>
+						<div class="panel panel-default Mypanel">
+						<div class="panel-heading" data-toggle="collapse" href="#collapse8" data-parent="#accordion">
+							<h4 class="panel-title">
+								<a>How can I pay for the services?</a>
+								<i class="fa fa-plus-circle pull-right" aria-hidden="true"></i>
+							</h4>
+						</div>
+						<div id="collapse8" class="panel-collapse collapse">
+							<div class="panel-body">
+									<ul>
+									<li> 1. You can recharge your  A Dhobi wallet and the payment is automatically deducted once we generate the order for you.</li>
+									<li> 2. You can also pay online on a per order basis. Just login and go to order history. You would be able to see all orders with pending payment. Just click on the ‘Pay now’ button and make the payment online.</li>
+									<li> 3. We also provide the option to pay by cash on delivery of the garments.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+						<div class="panel panel-default Mypanel">
+						<div class="panel-heading" data-toggle="collapse" href="#collapse9" data-parent="#accordion">
+							<h4 class="panel-title">
+								<a>How do I use  A Dhobi wallet?</a>
+								<i class="fa fa-plus-circle pull-right" aria-hidden="true"></i>
+							</h4>
+						</div>
+						<div id="collapse9" class="panel-collapse collapse">
+							<div class="panel-body">
+								<p>You can just recharge your wallet like any other prepaid wallet and whenever we generate an order for you, the amount gets deducted from the wallet and you receive a notification of the same. You don’t have to go through the hassles of cash payments on every delivery. </p>
+							</div>
+						</div>
+					</div>
+						<div class="panel panel-default Mypanel">
+						<div class="panel-heading" data-toggle="collapse" href="#collapse10" data-parent="#accordion">
+							<h4 class="panel-title">
+								<a>Do you process all kind of garments?</a>
+								<i class="fa fa-plus-circle pull-right" aria-hidden="true"></i>
+							</h4>
+						</div>
+						<div id="collapse10" class="panel-collapse collapse">
+							<div class="panel-body">
+								<p>Yes, we process all kind of garments except leather. </p>
+							</div>
+						</div>
+					</div>
+						<div class="panel panel-default Mypanel">
+						<div class="panel-heading" data-toggle="collapse" href="#collapse11" data-parent="#accordion">
+							<h4 class="panel-title">
+								<a>What if I am not available at the time of delivery?</a>
+								<i class="fa fa-plus-circle pull-right" aria-hidden="true"></i>
+							</h4>
+						</div>
+						<div id="collapse11" class="panel-collapse collapse">
+							<div class="panel-body">
+								<p>Once your order is ready our delivery agent shall call you to confirm your availability. Feel free to provide an alternate time of delivery. We can also deliver to your helper, neighbor but would need an email stating the same from the registered email ID.</p>
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default Mypanel">
+						<div class="panel-heading" data-toggle="collapse" href="#collapse12" data-parent="#accordion">
+							<h4 class="panel-title">
+								<a>Does Dry cleaning process removes all the stains?</a>
+								<i class="fa fa-plus-circle pull-right" aria-hidden="true"></i>
+							</h4>
+						</div>
+						<div id="collapse12" class="panel-collapse collapse">
+							<div class="panel-body">
+								<p>Contrary to the popular belief dry cleaning does not remove all the stains. Many stain need individual attention depending on the type of fabric and source of stain. We recommend you to give your garments for Stain removal process if that is the only reason for drycleaning the garment.</p>
+							</div>
+						</div>
+					</div>
+						<div class="panel panel-default Mypanel">
+						<div class="panel-heading" data-toggle="collapse" href="#collapse13" data-parent="#accordion">
+							<h4 class="panel-title">
+								<a>How can I contact LaundryAnna?</a>
+								<i class="fa fa-plus-circle pull-right" aria-hidden="true"></i>
+							</h4>
+						</div>
+						<div id="collapse13" class="panel-collapse collapse">
+							<div class="panel-body">
+								<p>You can call us on 0674-2355234 or write to us on contact@ A Dhobi.com</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="container">
+			<div class="pull-left">
+				<label>Copyright © 2017  A Dhobi Pvt Ltd</label>
+			</div>
+			<div class="pull-right">
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-twitter"></i>
+				<i class="fa fa-google"></i>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		$('#collapse1').on('shown.bs.collapse', function () {
+		$(this).parent().find('.fa-plus-circle').removeClass('fa-plus-circle').addClass('fa-minus-circle');
+	})
+	$('#collapse1').on('hidden.bs.collapse', function () {
+		$(this).parent().find('.fa-minus-circle').removeClass('fa-minus-circle').addClass('fa-plus-circle');
+	})
+	$('#collapse2').on('shown.bs.collapse', function () {
+		$(this).parent().find('.fa-plus-circle').removeClass('fa-plus-circle').addClass('fa-minus-circle');
+	})
+	$('#collapse2').on('hidden.bs.collapse', function () {
+		$(this).parent().find('.fa-minus-circle').removeClass('fa-minus-circle').addClass('fa-plus-circle');
+	})
+	$('#collapse3').on('shown.bs.collapse', function () {
+		$(this).parent().find('.fa-plus-circle').removeClass('fa-plus-circle').addClass('fa-minus-circle');
+	})
+	$('#collapse3').on('hidden.bs.collapse', function () {
+		$(this).parent().find('.fa-minus-circle').removeClass('fa-minus-circle').addClass('fa-plus-circle');
+	})
+	$('#collapse4').on('shown.bs.collapse', function () {
+		$(this).parent().find('.fa-plus-circle').removeClass('fa-plus-circle').addClass('fa-minus-circle');
+	})
+	$('#collapse4').on('hidden.bs.collapse', function () {
+		$(this).parent().find('.fa-minus-circle').removeClass('fa-minus-circle').addClass('fa-plus-circle');
+	})
+	$('#collapse5').on('shown.bs.collapse', function () {
+		$(this).parent().find('.fa-plus-circle').removeClass('fa-plus-circle').addClass('fa-minus-circle');
+	})
+	$('#collapse5').on('hidden.bs.collapse', function () {
+		$(this).parent().find('.fa-minus-circle').removeClass('fa-minus-circle').addClass('fa-plus-circle');
+	})
+	$('#collapse6').on('shown.bs.collapse', function () {
+		$(this).parent().find('.fa-plus-circle').removeClass('fa-plus-circle').addClass('fa-minus-circle');
+	})
+	$('#collapse6').on('hidden.bs.collapse', function () {
+		$(this).parent().find('.fa-minus-circle').removeClass('fa-minus-circle').addClass('fa-plus-circle');
+	})
+	$('#collapse7').on('shown.bs.collapse', function () {
+		$(this).parent().find('.fa-plus-circle').removeClass('fa-plus-circle').addClass('fa-minus-circle');
+	})
+	$('#collapse7').on('hidden.bs.collapse', function () {
+		$(this).parent().find('.fa-minus-circle').removeClass('fa-minus-circle').addClass('fa-plus-circle');
+	})
+	$('#collapse8').on('shown.bs.collapse', function () {
+		$(this).parent().find('.fa-plus-circle').removeClass('fa-plus-circle').addClass('fa-minus-circle');
+	})
+	$('#collapse8').on('hidden.bs.collapse', function () {
+		$(this).parent().find('.fa-minus-circle').removeClass('fa-minus-circle').addClass('fa-plus-circle');
+	})
+	$('#collapse9').on('shown.bs.collapse', function () {
+		$(this).parent().find('.fa-plus-circle').removeClass('fa-plus-circle').addClass('fa-minus-circle');
+	})
+	$('#collapse9').on('hidden.bs.collapse', function () {
+		$(this).parent().find('.fa-minus-circle').removeClass('fa-minus-circle').addClass('fa-plus-circle');
+	})
+	$('#collapse10').on('shown.bs.collapse', function () {
+		$(this).parent().find('.fa-plus-circle').removeClass('fa-plus-circle').addClass('fa-minus-circle');
+	})
+	$('#collapse10').on('hidden.bs.collapse', function () {
+		$(this).parent().find('.fa-minus-circle').removeClass('fa-minus-circle').addClass('fa-plus-circle');
+	})
+	$('#collapse11').on('shown.bs.collapse', function () {
+		$(this).parent().find('.fa-plus-circle').removeClass('fa-plus-circle').addClass('fa-minus-circle');
+	})
+	$('#collapse11').on('hidden.bs.collapse', function () {
+		$(this).parent().find('.fa-minus-circle').removeClass('fa-minus-circle').addClass('fa-plus-circle');
+	})
+	$('#collapse12').on('shown.bs.collapse', function () {
+		$(this).parent().find('.fa-plus-circle').removeClass('fa-plus-circle').addClass('fa-minus-circle');
+	})
+	$('#collapse12').on('hidden.bs.collapse', function () {
+		$(this).parent().find('.fa-minus-circle').removeClass('fa-minus-circle').addClass('fa-plus-circle');
+	})
+	$('#collapse13').on('shown.bs.collapse', function () {
+		$(this).parent().find('.fa-plus-circle').removeClass('fa-plus-circle').addClass('fa-minus-circle');
+	})
+	$('#collapse13').on('hidden.bs.collapse', function () {
+		$(this).parent().find('.fa-minus-circle').removeClass('fa-minus-circle').addClass('fa-plus-circle');
+	})
+	</script>
+</body>
+</html>
